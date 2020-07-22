@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">E_Sms</string>
+    <string name="sender">Sender</string>
+    <string name="key">Key</string>
+    <string name="cipher_received">Message</string>
+    <string name="decrypted">Plaintext</string>
+    <string name="submit">Submit</string>
+    <string name="Reply">Reply</string>
+    <string name="pass">Key</string>
+    <string name="exit">Cancel</string>
+    <string name="send1">Send</string>
+    <string name="hint1">Enter 16 characters long key</string>
+    <string name="hint2">Enter phone number</string>
+    <string name="receiver">Mobile No:</string>
+    <string name="ems">10</string>
+    <string name="hint3">Enter your message here...</string>
+</resources>

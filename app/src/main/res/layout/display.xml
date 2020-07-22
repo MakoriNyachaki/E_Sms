@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg">
+   <TextView
+       android:id="@+id/smssender"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/sender"
+       android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/senderPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <EditText
+        android:id="@+id/secretKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="@string/ems"
+        android:hint="@string/hint1">
+        <requestFocus/>
+    </EditText>
+    <TextView
+        android:id="@+id/txtCipher"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/cipher_received"
+        android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/txtCtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <!--<TextView
+        android:id="@+id/decmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decrypted"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/plainText"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.08"
+        tools:ignore="InefficientWeight" />-->
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="350px"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="48dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+     <Button
+         android:id="@+id/replyBtn"
+         android:layout_width="wrap_content"
+         android:layout_marginLeft="34dp"
+         android:layout_marginTop="48dp"
+         android:layout_height="wrap_content"
+         android:text="@string/Reply"
+         android:textStyle="bold"
+         tools:ignore="RtlHardcoded" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
